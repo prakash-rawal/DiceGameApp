@@ -1,13 +1,11 @@
 import React from 'react'
+import TilesGame from './game/TilesGame';
 
-import './todo.css';
-
-import TodoApp from './component/TodoList';
 
 function App() {
   return (
     <>
-      <TodoApp />
+      <TilesGame />
     </>
   );
 }
